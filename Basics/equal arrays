@@ -1,0 +1,18 @@
+n=int(input())
+t=list(map(int,input().split()))
+m=int(input())
+p=list(map(int,input().split()))
+i=0
+j=0
+if(n!=m):
+    print("NO")
+else:
+    for i in range(n):
+        if(t[i]!=p[i]):
+            print("NO")
+            break
+    else:
+        print("YES")
+
+       
+        
