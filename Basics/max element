@@ -1,0 +1,10 @@
+# cook your dish here
+n=int(input())
+for _ in range(n):
+    t=int(input())
+    m=list(map(int,input().split()))
+    largest=m[0]
+    for i in range(t):
+        if(m[i]>largest):
+            largest=m[i]
+    print(largest)
